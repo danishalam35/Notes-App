@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sticky"
+
+            android:textSize="20dp"
+            android:fontFamily="@font/aclonica"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="notes"
+            android:textSize="14dp"
+            android:textColor="#5F5E5E"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"
+            android:text="All Notes"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dp"
+        android:background="#CDCCCC"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:onClick="create"
+            android:layout_marginTop="2dp"
+            android:textColor="#5F5E5E"
+            android:fontFamily="@font/aclonica"
+            android:textStyle="bold"
+            android:text="Create New Notes"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
